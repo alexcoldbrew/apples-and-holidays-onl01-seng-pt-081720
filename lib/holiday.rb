@@ -90,7 +90,8 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.each do |season, hday_hash|
     hday_hash.each do |holiday, value|
       value.each do |supply|
-        
+        if supply == "BBQ"
+          
 end
 
 
